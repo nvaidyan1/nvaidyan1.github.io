@@ -1,2 +1,2 @@
-# nvaidyan.github.io
+# nvaidyan1.github.io
 Personal Website
