@@ -54,7 +54,7 @@ p.align-center {
   /* border: 10px solid blue; */
   margin:auto;
   position:relative;
-  width: 1000px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,7 +205,7 @@ header.sticky {
   border-radius: 10px;
 }
 
-@media (max-width:830px){
+@media (max-width: 830px){
   .toggle-button{
     display: flex;
   }
@@ -240,18 +240,21 @@ header.sticky {
   .hide-if-small-screen {
     display: none;
   }
+
   .container .card {
     flex-direction: column;
     text-align: center;
   }
   .smallcard{
-    width: 30%;
+    width: auto;
   }
 
   .container .card .imgc {
+    width: 100%;
     padding-left: 0px;
   }
   .container .card .txtc {
+    width: 100%;
     text-align: center;
   }
 }
